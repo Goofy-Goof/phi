@@ -1,12 +1,19 @@
-bazel-*
 *.env
 .idea
 .DS_Store
-.config
-ledger/.data
+
+k8s/secret.yaml
 
 ui/node_modules
 ui/package-lock.json
-ui/pnpm-lock.yaml
-http
-k8s/secret.yaml
+ui/build
+
+fava/frontend/node_modules
+fava/frontend/package-lock.json
+fava/src/fava/static
+
+proto/*.py
+proto/*.go
+
+fava/src/.data
+go/ledger/.data
