@@ -1,0 +1,4 @@
+src/.data
+src/fava/static
+frontend/node_modules
+frontend/package-lock.json
