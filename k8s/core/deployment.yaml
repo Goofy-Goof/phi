@@ -24,3 +24,7 @@ spec:
                   key: TINK_GW_URI
             - name: LEDGER_URI
               value: phi-ledger.default.svc.cluster.local:8082
+          securityContext:
+            runAsNonRoot: true
+            allowPrivilegeEscalation: false
+            capabilities: [ ]

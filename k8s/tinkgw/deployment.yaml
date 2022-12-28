@@ -27,3 +27,7 @@ spec:
                   key: client-secret
           ports:
             - containerPort: 8080
+          securityContext:
+            runAsNonRoot: true
+            allowPrivilegeEscalation: false
+            capabilities: [ ]

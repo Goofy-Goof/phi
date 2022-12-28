@@ -22,3 +22,7 @@ spec:
                 configMapKeyRef:
                   name: phi-configmap
                   key: TINK_GW_URI
+          securityContext:
+            runAsNonRoot: true
+            allowPrivilegeEscalation: false
+            capabilities: [ ]

@@ -16,3 +16,7 @@ spec:
           name: phi-ui
           ports:
             - containerPort: 3000
+          securityContext:
+            runAsNonRoot: true
+            allowPrivilegeEscalation: false
+            capabilities: []

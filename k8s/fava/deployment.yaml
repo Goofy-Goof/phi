@@ -19,3 +19,7 @@ spec:
               value: phi-ledger.default.svc.cluster.local:8082
           ports:
             - containerPort: 8083
+          securityContext:
+            runAsNonRoot: true
+            allowPrivilegeEscalation: false
+            capabilities: [ ]
