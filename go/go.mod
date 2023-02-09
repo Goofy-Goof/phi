@@ -5,7 +5,7 @@ go 1.18
 require (
 	github.com/dgraph-io/ristretto v0.1.0
 	github.com/eko/gocache/v2 v2.3.0
-	github.com/gin-gonic/gin v1.7.0
+	github.com/gin-gonic/gin v1.7.7
 	github.com/grpc-ecosystem/go-grpc-middleware v1.3.0
 	github.com/jobala/middleware_pipeline v1.0.1
 	github.com/motemen/go-loghttp v0.0.0-20170804080138-974ac5ceac27
